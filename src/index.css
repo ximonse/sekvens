@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles */
+body {
+  @apply transition-colors duration-200;
+}
+
+/* Custom theme utilities */
+.theme-light {
+  @apply bg-light-bg text-light-text;
+}
+
+.theme-dark {
+  @apply bg-dark-bg text-dark-text;
+}
+
+.theme-soft {
+  @apply bg-soft-bg text-soft-text;
+}
+
+.theme-ocean {
+  @apply bg-ocean-bg text-ocean-text;
+}
+
+/* Theme-specific panel styles */
+.theme-light .panel {
+  @apply bg-light-panel border-light-border;
+}
+
+.theme-dark .panel {
+  @apply bg-dark-panel border-dark-border;
+}
+
+.theme-soft .panel {
+  @apply bg-soft-panel border-soft-border;
+}
+
+.theme-ocean .panel {
+  @apply bg-ocean-panel border-ocean-border;
+}
+
+/* Additional transition and hover states */
+.theme-transition {
+  @apply transition-colors duration-200;
+}
